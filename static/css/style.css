@@ -1,0 +1,21 @@
+h1{
+	color: red;
+}
+#red{
+	background-color: red
+}
+#yellow{
+	background-color: yellow;
+}
+
+.grey_title{
+	background-color: #D6D8D9;
+}
+
+#green{
+	background-color: green;
+}
+
+.sizebox{
+	height: 40px;
+}

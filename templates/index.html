@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Четное-нечетное</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>Результат отбора</h1>
+                    
+<h2 class="grey_title sizebox">Претендент на участие {{nickname}}</h2>
+<h2 class="grey_title sizebox" id="green">Поздравляем! Ваш рейтинг после {{level}} этапа отбора</h2>
+<h2 class="sizebox" id='yellow'>состовляет {{rating}}</h2>
+<h2 class="sizebox" id='red'>Желаем удачи!</h2>
+</body>
+</html>
